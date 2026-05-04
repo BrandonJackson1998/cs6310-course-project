@@ -1,0 +1,9 @@
+name: cs6310-ppca
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24,<3
+  - scikit-learn>=1.3,<2
+  - matplotlib>=3.7,<4
+  - pip
