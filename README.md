@@ -15,7 +15,7 @@ Michael E. Tipping and Christopher M. Bishop, *Probabilistic Principal Component
 | PPCA closed-form MLE | `ppca/ppca_closed_form.py` |
 | PPCA EM | `ppca/ppca_em.py` |
 | Experiment script | `experiments/run_all.py` |
-| Figures + tables + narrative analysis | Generated under `results/` (see below) |
+| Figures + tables + narrative analysis | Generated under `results/` — **[Brief analysis](results/experiment_log.md#brief-analysis)** lives in [`experiment_log.md`](results/experiment_log.md) |
 
 **Constraint:** core decomposition code uses **NumPy only**. `scikit-learn` is used for **datasets** and **`StandardScaler`** — not for `sklearn.decomposition.PCA` / `PPCA`.
 
@@ -49,7 +49,7 @@ python -m experiments.run_all    # or: python3 -m experiments.run_all
 
 | Output | Purpose |
 | --- | --- |
-| `results/experiment_log.md` | Tables, embedded figure links, dataset descriptions, brief analysis |
+| `results/experiment_log.md` | Tables, embedded figure links, dataset descriptions, **[Brief analysis](results/experiment_log.md#brief-analysis)** |
 | `results/figures/*.png` | Plots (MSE bars, MNIST vs **q**, Wine scree, Olivetti reconstructions) |
 
 **First run notes**
@@ -61,7 +61,7 @@ python -m experiments.run_all    # or: python3 -m experiments.run_all
 
 ## Datasets (summary)
 
-Full prose + preparation lives in **`results/experiment_log.md`** after you run experiments (also summarized here):
+Full prose + preparation lives in **`results/experiment_log.md`** after you run experiments (also summarized here). Interpretation and caveats: **[Brief analysis](results/experiment_log.md#brief-analysis)**.
 
 | Dataset | N × D | Access |
 | --- | --- | --- |

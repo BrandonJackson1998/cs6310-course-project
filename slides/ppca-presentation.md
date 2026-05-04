@@ -132,7 +132,7 @@ Shows sensitivity of reconstruction error as rank grows (still standardized-pixe
 
 ![Wine cumulative variance](../results/figures/wine_variance_explained.png)
 
-PCA/PPCA spectrum alignment on this low-$D$ dataset—instrumental for interpreting PPCA loads vs PCA subspace.
+**PCA-only** scree curve on standardized Wine (cumulative eigenvalue fraction)—shows how quickly variance accumulates in $q \leq 12$ PCs and motivates discussing rank choice alongside tabular reconstruction MSE.
 
 ---
 
